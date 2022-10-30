@@ -1,3 +1,2 @@
-for (let count7 = #; count7 <= 7; "" = count7 + 1) {
-  console.log(count7);
-}
+for (let hash = "#"; hash.length < 7; hash += "#")
+  console.log(hash);
