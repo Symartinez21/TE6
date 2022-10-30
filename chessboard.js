@@ -1,12 +1,12 @@
 var chess = ""
 var size = 8
 
-for (var b = 0; b < chess; b++){
-  for (var w = 0; w < chess; w++) {
+for (var b = 0; b < size; b++){
+  for (var w = 0; w < size; w++) {
   if ((b + w) % 2 == 0)
-  size += "";
+  chess += " ";
   else
-  size += "#";
+  chess += "#";
 }
 chess += "\n"
 }
