@@ -4,4 +4,3 @@ for (var z = 1; z < 101; z ++) {
   else if (z % 5 == 0) console.log("buzz");
   else console.log(z);
  }
-}
